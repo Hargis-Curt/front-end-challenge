@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECECEC;
+  color: white;
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: lighter;
+}
+
+.bus_info_box {
+  align-content: center;
+  background-color: #007AFF;
+  border: 0.5px solid #C6D9FC;
+  border-radius: 5px;
+  box-shadow: 3px 3px #0052AA;
+  display: grid;
+  font-weight: lighter;
+  font-size: 14px;
+	grid-column-gap: 33px;
+  grid-template-columns: auto auto auto 20px;
+	height: 60px;
+  justify-content: space-between;
+  margin-left: 12px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 365px;
+}
+
+
+
+.container {
+  background-color: #ECECEC;
+}
+
+.direction {
+  color: #007AFF;
+	font-size: 18px;
+  font-weight: bold;
+	margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.l-arrow {
+	padding-left: 12px;
+}
+
+
+.number {
+   align-content: space-between;
+}
+
+.destination-1 {
+  text-align: left;
+  font-size: 1.1em;
+  min-width: 80px;
+  padding-top: 12px;
+}
+
+.frequency-1 {
+  text-align: right;
+  font-size: 1.2em;
+  min-width: 80px;
+  padding-top: 5px;
+}
+
+.destination-2 {
+  font-size: 1em;
+  min-width: 86px;
+  line-height: 120%;
+  padding-top: 4px;
+	text-align: left;
+}
+
+.destination-3 {
+  margin-top: 7px;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.frequency-2 {
+  font-size: 1.1em;
+  padding-top: 3px;
+  text-align: right;
+}
+
+.navbar-stop {
+  font-size: 0.9em;
+	padding-top: 10px;
+}
+
+.destination-4 {
+	text-align: left;
+	font-size: 1.1em;
+	min-width: 80px;
+	padding-top: 6px;
+}
+
+.frequency-na {
+  margin-left: 20px;
+	margin-top: 9px;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+
+.map img {
+   margin: 0;
+}
+
+.menu {
+  margin-left: 10px;
+	padding-right: 5px;
+	padding-top: 9px;
+}
+
+.r-arrow {
+	padding-top: 5px;
+}
+
+
+.status-bar {
+  display: block;
+	padding-left: 8px;
+
+}
+
+.statbar-image {
+	display: block;
+}
+
+.top-nav {
+  background-color: #007AFF;
+  display: grid;
+  font-size: 1.1em;
+	grid-template-columns: 20px 190px 20px;
+	height: 40px;
+	justify-content: space-between;
+  margin-left: 8px;
+	padding-right: 35px;
+	width: 375px;
+ }
